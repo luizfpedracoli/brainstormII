@@ -13,8 +13,13 @@
         <div class="caixa-alternativas"></div>
         <div class="caixa-resultado">
             <p class="texto-resultado"></p>
+            <button class="novamente-btn">Jogar Novamente</button>
         </div>
     </div>
-    <script src="script.js"></script>
+
+    <!-- Ordem de carregamento: dependências primeiro, depois o script principal -->
+    <script type="module" src="js/aleatorio.js"></script>
+    <script type="module" src="js/perguntas.js"></script>
+    <script type="module" src="js/script.js"></script>
 </body>
 </html>
