@@ -1,7 +1,11 @@
-export function aleatorio(lista) {
-    if (Array.isArray(lista)) {
-        const posicao = Math.floor(Math.random() * lista.length);
-        return lista[posicao];
-    }
-    return lista;
+const nomes = ["Fernanda", "Giuliana", "Maria Eduarda", "Marcelo", "Amanda", "Gustavo",
+"Gabriel"];
+
+export function aleatorio (lista){
+const posicao = Math.floor(Math.random()* lista.length);
+return lista[posicao];
 }
+
+export const nome = aleatorio(nomes)
+
+perguntas.js
