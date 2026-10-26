@@ -1,8 +1,3 @@
-
-GUILHERME GOMES SANTANA <guilherme.gomes.santana@escola.pr.gov.br>
-09:31 (há 0 minuto)
-para MARCOS, mim
-
 import { aleatorio } from './aleatorio.js';
 import { perguntas } from './perguntas.js';
 
